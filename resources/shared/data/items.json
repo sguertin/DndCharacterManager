@@ -1,0 +1,782 @@
+[
+    {
+        "name": "Alchemist’s supplies",
+        "price": "50 gp",
+        "weight": 8
+    },
+    {
+        "name": "Brewer’s supplies",
+        "price": "20 gp",
+        "weight": 9
+    },
+    {
+        "name": "Calligrapher’s supplies",
+        "price": "10 gp",
+        "weight": 5
+    },
+    {
+        "name": "Carpenter’s tools",
+        "price": "8 gp",
+        "weight": 6
+    },
+    {
+        "name": "Cartographer’s tools",
+        "price": "15 gp",
+        "weight": 6
+    },
+    {
+        "name": "Cobbler’s tools",
+        "price": "5 gp",
+        "weight": 5
+    },
+    {
+        "name": "Cook’s utensils",
+        "price": "1 gp",
+        "weight": 8
+    },
+    {
+        "name": "Glassblower’s tools",
+        "price": "30 gp",
+        "weight": 5
+    },
+    {
+        "name": "Jeweler’s tools",
+        "price": "25 gp",
+        "weight": 2
+    },
+    {
+        "name": "Leatherworker’s tools",
+        "price": "5 gp",
+        "weight": 5
+    },
+    {
+        "name": "Mason’s tools",
+        "price": "10 gp",
+        "weight": 8
+    },
+    {
+        "name": "Painter’s supplies",
+        "price": "10 gp",
+        "weight": 5
+    },
+    {
+        "name": "Potter’s tools",
+        "price": "10 gp",
+        "weight": 3
+    },
+    {
+        "name": "Smith’s tools",
+        "price": "20 gp",
+        "weight": 8
+    },
+    {
+        "name": "Tinker’s tools",
+        "price": "50 gp",
+        "weight": 10
+    },
+    {
+        "name": "Weaver’s tools",
+        "price": "1 gp",
+        "weight": 5
+    },
+    {
+        "name": "Woodcarver’s tools",
+        "price": "1 gp",
+        "weight": 5
+    },
+    {
+        "name": "Dice set",
+        "price": "1 sp",
+        "weight": 0
+    },
+    {
+        "name": "Playing card set",
+        "price": "5 sp",
+        "weight": 0
+    },
+    {
+        "name": "Bagpipes",
+        "price": "30 gp",
+        "weight": 6
+    },
+    {
+        "name": "Drum",
+        "price": "6 gp",
+        "weight": 3
+    },
+    {
+        "name": "Dulcimer",
+        "price": "25 gp",
+        "weight": 10
+    },
+    {
+        "name": "Flute",
+        "price": "2 gp",
+        "weight": 1
+    },
+    {
+        "name": "Lute",
+        "price": "35 gp",
+        "weight": 2
+    },
+    {
+        "name": "Lyre",
+        "price": "30 gp",
+        "weight": 2
+    },
+    {
+        "name": "Horn",
+        "price": "30 gp",
+        "weight": 2
+    },
+    {
+        "name": "Pan flute",
+        "price": "12 gp",
+        "weight": 2
+    },
+    {
+        "name": "Shawm",
+        "price": "2 gp",
+        "weight": 1
+    },
+    {
+        "name": "Viol",
+        "price": "30 gp",
+        "weight": 1
+    },
+    {
+        "name": "Navigator’s tools",
+        "price": "25 gp",
+        "weight": 2
+    },
+    {
+        "name": "Thieves’ tools",
+        "price": "25 gp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of wheat",
+        "price": "1 cp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of flour or one chicken",
+        "price": "2 cp",
+        "weight": 1
+    },
+    {
+        "name": "chicken",
+        "price": "2 cp"
+    },
+    {
+        "name": "lb. of salt",
+        "price": "5 cp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of iron",
+        "price": "1 sp",
+        "weight": 1
+    },
+    {
+        "name": "sq. yd. of canvas",
+        "price": "1 sp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of copper",
+        "price": "5 sp",
+        "weight": 1
+    },
+    {
+        "name": "sq. yd. of cotton cloth",
+        "price": "5 sp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of ginger",
+        "price": "1 gp",
+        "weight": 1
+    },
+    {
+        "name": "goat",
+        "price": "1 gp"
+    },
+    {
+        "name": "lb. of cinnamon",
+        "price": "2 gp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of pepper",
+        "price": "2 gp",
+        "weight": 1
+    },
+    {
+        "name": "sheep",
+        "price": "2 gp"
+    },
+    {
+        "name": "lb. of cloves or one pig",
+        "price": "3 gp",
+        "weight": 1
+    },
+    {
+        "name": "pig",
+        "price": "3 gp"
+    },
+    {
+        "name": "lb. of silver",
+        "price": "5 gp",
+        "weight": 1
+    },
+    {
+        "name": "sq. yd. of linen",
+        "price": "5 gp",
+        "weight": 1
+    },
+    {
+        "name": "sq. yd. of silk",
+        "price": "10 gp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of saffron",
+        "price": "15 gp",
+        "weight": 1
+    },
+    {
+        "name": "cow",
+        "price": "10 gp"
+    },
+    {
+        "name": "ox",
+        "price": "15 gp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of gold",
+        "price": "50 gp",
+        "weight": 1
+    },
+    {
+        "name": "lb. of platinum",
+        "price": "500 gp",
+        "weight": 1
+    },
+    {
+        "name": "Abacus",
+        "price": "2 gp",
+        "weight": 2
+    },
+    {
+        "name": "Acid (vial)",
+        "price": "25 gp",
+        "weight": 1
+    },
+    {
+        "name": "Alchemist’s fire (flask)",
+        "price": "50 gp",
+        "weight": 1
+    },
+    {
+        "name": "Arrows (20)",
+        "price": "1 gp",
+        "weight": 1
+    },
+    {
+        "name": "Blowgun needles (50)",
+        "price": "1 gp",
+        "weight": 1
+    },
+    {
+        "name": "Crossbow bolts (20)",
+        "price": "1 gp",
+        "weight": 1.5
+    },
+    {
+        "name": "Sling bullets (20)",
+        "price": "4 cp",
+        "weight": 1.5
+    },
+    {
+        "name": "Amulet",
+        "price": "5 gp",
+        "weight": 1
+    },
+    {
+        "name": "Antitoxin (vial)",
+        "price": "50 gp",
+        "weight": 0
+    },
+    {
+        "name": "Crystal",
+        "price": "10 gp",
+        "weight": 1
+    },
+    {
+        "name": "Orb",
+        "price": "20 gp",
+        "weight": 3
+    },
+    {
+        "name": "Rod",
+        "price": "10 gp",
+        "weight": 2
+    },
+    {
+        "name": "Staff",
+        "price": "5 gp",
+        "weight": 4
+    },
+    {
+        "name": "Wand",
+        "price": "10 gp",
+        "weight": 1
+    },
+    {
+        "name": "Backpack",
+        "price": "2 gp",
+        "weight": 5
+    },
+    {
+        "name": "Ball bearings (bag of 1,000)",
+        "price": "1 gp",
+        "weight": 2
+    },
+    {
+        "name": "Barrel",
+        "price": "2 gp",
+        "weight": 70
+    },
+    {
+        "name": "Basket",
+        "price": "4 sp",
+        "weight": 2
+    },
+    {
+        "name": "Bedroll",
+        "price": "1 gp",
+        "weight": 7
+    },
+    {
+        "name": "Bell",
+        "price": "1 gp",
+        "weight": 0
+    },
+    {
+        "name": "Blanket",
+        "price": "5 sp",
+        "weight": 3
+    },
+    {
+        "name": "Block and tackle",
+        "price": "1 gp",
+        "weight": 5
+    },
+    {
+        "name": "Book",
+        "price": "25 gp",
+        "weight": 5
+    },
+    {
+        "name": "Bottle, glass",
+        "price": "2 gp",
+        "weight": 2
+    },
+    {
+        "name": "Bucket",
+        "price": "5 cp",
+        "weight": 2
+    },
+    {
+        "name": "Caltrops (bag of 20)",
+        "price": "1 gp",
+        "weight": 2
+    },
+    {
+        "name": "Candle",
+        "price": "1 cp",
+        "weight": 0
+    },
+    {
+        "name": "Case, crossbow bolt",
+        "price": "1 gp",
+        "weight": 1
+    },
+    {
+        "name": "Case, map or scroll",
+        "price": "1 gp",
+        "weight": 1
+    },
+    {
+        "name": "Chain (10 feet)",
+        "price": "5 gp",
+        "weight": 10
+    },
+    {
+        "name": "Chalk (1 piece)",
+        "price": "1 cp",
+        "weight": 0
+    },
+    {
+        "name": "Chest",
+        "price": "5 gp",
+        "weight": 25
+    },
+    {
+        "name": "Clothes, common",
+        "price": "5 sp",
+        "weight": 3
+    },
+    {
+        "name": "Clothes, costume",
+        "price": "5 gp",
+        "weight": 4
+    },
+    {
+        "name": "Clothes, fine",
+        "price": "15 gp",
+        "weight": 6
+    },
+    {
+        "name": "Clothes, traveler’s",
+        "price": "2 gp",
+        "weight": 4
+    },
+    {
+        "name": "Component pouch",
+        "price": "25 gp",
+        "weight": 2
+    },
+    {
+        "name": "Crowbar",
+        "price": "2 gp",
+        "weight": 5
+    },
+    {
+        "name": "Sprig of mistletoe",
+        "price": "1 gp",
+        "weight": 0
+    },
+    {
+        "name": "Totem",
+        "price": "1 gp",
+        "weight": 0
+    },
+    {
+        "name": "Wooden staff",
+        "price": "5 gp",
+        "weight": 4
+    },
+    {
+        "name": "Yew wand",
+        "price": "10 gp",
+        "weight": 1
+    },
+    {
+        "name": "Emblem",
+        "price": "5 gp",
+        "weight": 0
+    },
+    {
+        "name": "Fishing tackle",
+        "price": "1 gp",
+        "weight": 4
+    },
+    {
+        "name": "Flask or tankard",
+        "price": "2 cp",
+        "weight": 1
+    },
+    {
+        "name": "Grappling hook",
+        "price": "2 gp",
+        "weight": 4
+    },
+    {
+        "name": "Hammer",
+        "price": "1 gp",
+        "weight": 3
+    },
+    {
+        "name": "Hammer, sledge",
+        "price": "2 gp",
+        "weight": 10
+    },
+    {
+        "name": "Holy water (flask)",
+        "price": "25 gp",
+        "weight": 1
+    },
+    {
+        "name": "Hourglass",
+        "price": "25 gp",
+        "weight": 1
+    },
+    {
+        "name": "Hunting trap",
+        "price": "5 gp",
+        "weight": 25
+    },
+    {
+        "name": "Ink (1 ounce bottle)",
+        "price": "10 gp",
+        "weight": 0
+    },
+    {
+        "name": "Ink pen",
+        "price": "2 cp",
+        "weight": 0
+    },
+    {
+        "name": "Jug or pitcher",
+        "price": "2 cp",
+        "weight": 4
+    },
+    {
+        "name": "Kit, climber’s",
+        "price": "25 gp",
+        "weight": 12
+    },
+    {
+        "name": "Kit, disguise",
+        "price": "25 gp",
+        "weight": 3
+    },
+    {
+        "name": "Kit, forgery",
+        "price": "15 gp",
+        "weight": 5
+    },
+    {
+        "name": "Kit, herbalism",
+        "price": "5 gp",
+        "weight": 3
+    },
+    {
+        "name": "Kit, healer’s",
+        "price": "5 gp",
+        "weight": 3
+    },
+    {
+        "name": "Kit, mess",
+        "price": "2 sp",
+        "weight": 1
+    },
+    {
+        "name": "Kit, poisoner’s",
+        "price": "50 gp",
+        "weight": 2
+    },
+    {
+        "name": "Ladder (10-foot)",
+        "price": "1 sp",
+        "weight": 25
+    },
+    {
+        "name": "Lamp",
+        "price": "5 sp",
+        "weight": 1
+    },
+    {
+        "name": "Lantern, bullseye",
+        "price": "10 gp",
+        "weight": 2
+    },
+    {
+        "name": "Lantern, hooded",
+        "price": "5 gp",
+        "weight": 2
+    },
+    {
+        "name": "Lock",
+        "price": "10 gp",
+        "weight": 1
+    },
+    {
+        "name": "Magnifying glass",
+        "price": "100 gp",
+        "weight": 0
+    },
+    {
+        "name": "Manacles",
+        "price": "2 gp",
+        "weight": 6
+    },
+    {
+        "name": "Mirror, steel",
+        "price": "5 gp",
+        "weight": 0.5
+    },
+    {
+        "name": "Oil (flask)",
+        "price": "1 sp",
+        "weight": 1
+    },
+    {
+        "name": "Paper (one sheet)",
+        "price": "2 sp",
+        "weight": 0
+    },
+    {
+        "name": "Parchment (one sheet)",
+        "price": "1 sp",
+        "weight": 0
+    },
+    {
+        "name": "Perfume (vial)",
+        "price": "5 gp",
+        "weight": 0
+    },
+    {
+        "name": "Pick, miner’s",
+        "price": "2 gp",
+        "weight": 10
+    },
+    {
+        "name": "Piton",
+        "price": "5 cp",
+        "weight": 0.25
+    },
+    {
+        "name": "Poison, basic (vial)",
+        "price": "100 gp",
+        "weight": 0
+    },
+    {
+        "name": "Pole (10-foot)",
+        "price": "5 cp",
+        "weight": 7
+    },
+    {
+        "name": "Pot, iron",
+        "price": "2 gp",
+        "weight": 10
+    },
+    {
+        "name": "Potion of healing",
+        "price": "50 gp",
+        "weight": 0.5
+    },
+    {
+        "name": "Pouch",
+        "price": "5 sp",
+        "weight": 1
+    },
+    {
+        "name": "Quiver",
+        "price": "1 gp",
+        "weight": 1
+    },
+    {
+        "name": "Ram, portable",
+        "price": "4 gp",
+        "weight": 35
+    },
+    {
+        "name": "Rations (1 day)",
+        "price": "5 sp",
+        "weight": 2
+    },
+    {
+        "name": "Reliquary",
+        "price": "5 gp",
+        "weight": 2
+    },
+    {
+        "name": "Robes",
+        "price": "1 gp",
+        "weight": 4
+    },
+    {
+        "name": "Rope, hempen (50 feet)",
+        "price": "1 gp",
+        "weight": 10
+    },
+    {
+        "name": "Rope, silk (50 feet)",
+        "price": "10 gp",
+        "weight": 5
+    },
+    {
+        "name": "Sack",
+        "price": "1 cp",
+        "weight": 0.5
+    },
+    {
+        "name": "Scale, merchant’s",
+        "price": "5 gp",
+        "weight": 3
+    },
+    {
+        "name": "Sealing wax",
+        "price": "5 sp",
+        "weight": 0
+    },
+    {
+        "name": "Shovel",
+        "price": "2 gp",
+        "weight": 5
+    },
+    {
+        "name": "Signal whistle",
+        "price": "5 cp",
+        "weight": 0
+    },
+    {
+        "name": "Signet ring",
+        "price": "5 gp",
+        "weight": 0
+    },
+    {
+        "name": "Soap",
+        "price": "2 cp",
+        "weight": 0
+    },
+    {
+        "name": "Spellbook",
+        "price": "50 gp",
+        "weight": 3
+    },
+    {
+        "name": "Spikes, iron (10)",
+        "price": "1 gp",
+        "weight": 5
+    },
+    {
+        "name": "Spyglass",
+        "price": "1000 gp",
+        "weight": 1
+    },
+    {
+        "name": "Tent, two-person",
+        "price": "2 gp",
+        "weight": 20
+    },
+    {
+        "name": "Tinderbox",
+        "price": "5 sp",
+        "weight": 1
+    },
+    {
+        "name": "Torch",
+        "price": "1 cp",
+        "weight": 1
+    },
+    {
+        "name": "Vial",
+        "price": "1 gp",
+        "weight": 0
+    },
+    {
+        "name": "Waterskin",
+        "price": "2 sp",
+        "weight": 5
+    },
+    {
+        "name": "Whetstone",
+        "price": "1 cp",
+        "weight": 1
+    }
+]
