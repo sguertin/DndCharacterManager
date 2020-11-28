@@ -1,30 +1,28 @@
-<!DOCTYPE HTML>
-<html manifest="">
-<head><base href="/">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes">
-	<title>DndCharacterManager</title>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>DnD Character Manager</title>
+        <meta
+            name="description"
+            content="A simple web-based character manager"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="" />
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="#">upgrade your browser</a> to improve your experience.
+            </p>
+        <![endif]-->
 
-  <script type="text/javascript">
-    var Ext = Ext || {};
-    Ext.beforeLoad = function (tags) {
-      var s = location.search;
-      var profile;
-      if (s.match(/\bdesktop\b/)) { profile = 'desktop' }
-      else if (s.match(/\bphone\b/)) { profile = 'phone' }
-      else { profile = tags.desktop ? 'desktop' : 'phone' }
-      Ext.manifest ='generatedFiles/' + profile;
-    };
-  </script>
-
-  <!-- The line below must be kept intact for Sencha Cmd to build your application -->
-  <script id="microloader" data-app="9f5ac71b-1fc6-47b2-8341-10dbcad12ef0" type="text/javascript" src="generatedFiles/bootstrap.js"></script>
-</head>
-  <body class="launching">
-    <div id="splash" style="margin-top:20%;font-family:Arial;font-size:64px;text-align:center;color:#404040;">
-      <div id="theLoadingText">LOADING...</div>
-      <i style="margin:20px;" class="fa fa-spinner fa-spin"></i>
-    </div>
-  <script type="text/javascript" src="main.js?2f5acc0fefa5a02c8051"></script></body>
+        <script src="js/main.js" async defer></script>
+    </body>
 </html>
