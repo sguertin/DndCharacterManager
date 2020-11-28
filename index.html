@@ -13,7 +13,7 @@
             content="A simple web-based character manager"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="" />
+        <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -22,7 +22,86 @@
                 <a href="#">upgrade your browser</a> to improve your experience.
             </p>
         <![endif]-->
-
-        <script src="js/main.js" async defer></script>
+        <form>
+            <header>
+                <div class="field" id="CharacterName">
+                    <label for="CharacterName-input"></label>
+                    <input id="CharacterName-input" type="text" />
+                </div>
+                <div class="field" id="PlayerName">
+                    <label for="PlayerName-input"></label>
+                    <input id="PlayerName-input" type="text" />
+                </div>
+                <div class="field" id="CharacterClasses">
+                    <span class="CharacterLevel">
+                        <label for="CharacterClasses-list-1">Class 1:</label>
+                        <datalist
+                            id="CharacterClasses-list-1"
+                            name="class-list-1"
+                        >
+                            <option value="--">--</option>
+                        </datalist>
+                        <input
+                            type="range"
+                            min="1"
+                            max="20"
+                            id="ClassLevel-1"
+                        />
+                    </span>
+                    <div class="Divider">/</div>
+                    <span class="CharacterLevel">
+                        <label for="CharacterClasses-list-2">Class 2:</label>
+                        <datalist
+                            id="CharacterClasses-list-2"
+                            name="class-list-2"
+                        >
+                            <option value="--">--</option>
+                        </datalist>
+                        <input
+                            type="range"
+                            min="1"
+                            max="20"
+                            id="ClassLevel-2"
+                            disabled
+                        />
+                    </span>
+                    <div class="Divider">/</div>
+                    <span class="CharacterLevel">
+                        <label for="CharacterClasses-list-3">Class 3:</label>
+                        <datalist
+                            id="CharacterClasses-list-3"
+                            name="class-list-3"
+                        >
+                            <option value="--">--</option>
+                        </datalist>
+                        <input
+                            type="range"
+                            min="1"
+                            max="20"
+                            id="ClassLevel-3"
+                            disabled
+                        />
+                    </span>
+                    <div class="Divider">/</div>
+                    <span class="CharacterLevel">
+                        <label for="CharacterClasses-list-4">Class 3:</label>
+                        <datalist
+                            id="CharacterClasses-list-4"
+                            name="class-list-4"
+                        >
+                            <option value="--">--</option>
+                        </datalist>
+                        <input
+                            type="range"
+                            min="1"
+                            max="20"
+                            id="ClassLevel-4"
+                            disabled
+                        />
+                    </span>
+                </div>
+            </header>
+            <script src="js/main.js" async defer></script>
+        </form>
     </body>
 </html>
