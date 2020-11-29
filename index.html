@@ -25,83 +25,420 @@
         <form>
             <header>
                 <div class="field" id="CharacterName">
-                    <label for="CharacterName-input"></label>
-                    <input id="CharacterName-input" type="text" />
+                    <label for="input-CharacterName">Character Name:</label>
+                    <input id="input-CharacterName" type="text" />
                 </div>
                 <div class="field" id="PlayerName">
-                    <label for="PlayerName-input"></label>
-                    <input id="PlayerName-input" type="text" />
+                    <label for="input-PlayerName">Player Name:</label>
+                    <input id="input-PlayerName" type="text" />
                 </div>
                 <div class="field" id="CharacterClasses">
                     <span class="CharacterLevel">
-                        <label for="CharacterClasses-list-1">Class 1:</label>
+                        <label for="list-CharacterClasses-1">Class 1:</label>
                         <datalist
-                            id="CharacterClasses-list-1"
-                            name="class-list-1"
+                            id="list-CharacterClasses-1"
+                            name="list-class-1"
                         >
                             <option value="--">--</option>
                         </datalist>
                         <input
-                            type="range"
+                            type="number"
                             min="1"
+                            step="1"
                             max="20"
                             id="ClassLevel-1"
+                            class="ClassLevel"
                         />
                     </span>
                     <div class="Divider">/</div>
                     <span class="CharacterLevel">
-                        <label for="CharacterClasses-list-2">Class 2:</label>
+                        <label for="list-CharacterClasses-2">Class 2:</label>
                         <datalist
-                            id="CharacterClasses-list-2"
+                            id="list-CharacterClasses-2"
                             name="class-list-2"
                         >
                             <option value="--">--</option>
                         </datalist>
                         <input
-                            type="range"
-                            min="1"
+                            type="number"
+                            min="0"
+                            step="1"
                             max="20"
                             id="ClassLevel-2"
                             disabled
+                            class="ClassLevel"
                         />
                     </span>
                     <div class="Divider">/</div>
                     <span class="CharacterLevel">
-                        <label for="CharacterClasses-list-3">Class 3:</label>
+                        <label for="list-CharacterClasses-3">Class 3:</label>
                         <datalist
-                            id="CharacterClasses-list-3"
+                            id="list-CharacterClasses-3"
                             name="class-list-3"
                         >
                             <option value="--">--</option>
                         </datalist>
                         <input
-                            type="range"
-                            min="1"
+                            type="number"
+                            min="0"
+                            step="1"
                             max="20"
                             id="ClassLevel-3"
                             disabled
+                            class="ClassLevel"
                         />
                     </span>
                     <div class="Divider">/</div>
                     <span class="CharacterLevel">
-                        <label for="CharacterClasses-list-4">Class 3:</label>
+                        <label for="list-CharacterClasses-4">Class 3:</label>
                         <datalist
-                            id="CharacterClasses-list-4"
+                            id="list-CharacterClasses-4"
                             name="class-list-4"
                         >
                             <option value="--">--</option>
                         </datalist>
                         <input
-                            type="range"
-                            min="1"
+                            type="number"
+                            min="0"
+                            step="1"
                             max="20"
                             id="ClassLevel-4"
                             disabled
+                            class="ClassLevel"
                         />
                     </span>
                 </div>
+                <div class="field" id="Race">
+                    <label for="Race-list">Race:</label>
+                    <datalist id="Race-list" name="Race-list">
+                        <option value="Human">Human</option>
+                    </datalist>
+                </div>
+                <div id="CharacterPortrait"></div>
             </header>
-            <script src="js/main.js" async defer></script>
+            <nav hidden="true"></nav>
+            <section id="AbilitySection">
+                <div id="Strength" class="Ability">
+                    <div class="AbilityScore">
+                        <label for="StrengthScore">STR</label>
+                        <input
+                            id="StrengthScore"
+                            type="number"
+                            min="1"
+                            step="1"
+                            max="30"
+                        />
+                        <span id="StrengthModifier"></span>
+                    </div>
+                    <div class="Proficiencies">
+                        <ul id="StrengthProficiencies">
+                            <li>
+                                <span
+                                    id="StrengthSaveModifier"
+                                    class="SaveModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="StrengthSave"
+                                    name="StrengthSave"
+                                    class="Proficiency"
+                                />
+                                <label for="StrengthSave">Saving Throw</label>
+                            </li>
+                            <li>
+                                <span
+                                    id="AthleticsModifier"
+                                    class="SkillModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="AthleticsProficiency"
+                                    name="AthleticsProficiency"
+                                    class="Proficiency"
+                                />
+                                <input
+                                    type="checkbox"
+                                    id="AthleticsExpertise"
+                                    name="AthleticsExpertise"
+                                    class="Expertise"
+                                />
+                                <label for="AthleticsProficiency"
+                                    >Athletics</label
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="Dexterity" class="Ability">
+                    <div class="AbilityScore">
+                        <label for="DexterityScore">DEX</label>
+                        <input
+                            id="DexterityScore"
+                            type="number"
+                            min="1"
+                            step="1"
+                            max="30"
+                        />
+                        <span id="DexterityModifier"></span>
+                    </div>
+                    <div class="Proficiencies">
+                        <ul id="DexterityProficiencies">
+                            <li>
+                                <span
+                                    id="DexteritySaveModifier"
+                                    class="SaveModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="DexteritySave"
+                                    name="DexteritySave"
+                                    class="Proficiency"
+                                />
+                                <label for="DexteritySave">Saving Throw</label>
+                            </li>
+                            <li>
+                                <span
+                                    id="AcrobaticsModifier"
+                                    class="SkillModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="AcrobaticsProficiency"
+                                    name="AcrobaticsProficiency"
+                                    class="Proficiency"
+                                />
+                                <input
+                                    type="checkbox"
+                                    id="AcrobaticsExpertise"
+                                    name="AcrobaticsExpertise"
+                                    class="Expertise"
+                                />
+                                <label for="AcrobaticsProficiency"
+                                    >Acrobatics</label
+                                >
+                            </li>
+                            <li>
+                                <span
+                                    id="SleightOfHandModifier"
+                                    class="SkillModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="SleightOfHandProficiency"
+                                    name="SleightOfHandProficiency"
+                                    class="Proficiency"
+                                />
+                                <input
+                                    type="checkbox"
+                                    id="SleightOfHandExpertise"
+                                    name="SleightOfHandExpertise"
+                                    class="Expertise"
+                                />
+                                <label for="SleightOfHandProficiency"
+                                    >Sleight of Hand</label
+                                >
+                            </li>
+                            <li>
+                                <span
+                                    id="StealthModifier"
+                                    class="SkillModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="StealthProficiency"
+                                    name="StealthProficiency"
+                                    class="Proficiency"
+                                />
+                                <input
+                                    type="checkbox"
+                                    id="StealthExpertise"
+                                    name="StealthExpertise"
+                                    class="Expertise"
+                                />
+                                <label for="StealthProficiency">Stealth</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="Constitution" class="Ability">
+                    <div class="AbilityScore">
+                        <label for="ConstitutionScore">CON</label>
+                        <input
+                            id="ConstitutionScore"
+                            type="number"
+                            min="1"
+                            step="1"
+                            max="30"
+                        />
+                        <span id="ConstitutionModifier"></span>
+                    </div>
+                    <div class="Proficiencies">
+                        <ul id="ConstitutionProficiencies">
+                            <li>
+                                <span
+                                    id="ConstitutionSaveModifier"
+                                    class="SaveModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="ConstitutionSave"
+                                    name="ConstitutionSave"
+                                    class="Proficiency"
+                                />
+                                <label for="ConstitutionSave"
+                                    >Saving Throw</label
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="Intelligence" class="Ability">
+                    <div class="AbilityScore">
+                        <label for="IntelligenceScore">INT</label>
+                        <input
+                            id="IntelligenceScore"
+                            type="number"
+                            min="1"
+                            step="1"
+                            max="30"
+                        />
+                        <span id="IntelligenceModifier"></span>
+                    </div>
+                    <div class="Proficiencies">
+                        <ul id="IntelligenceProficiencies">
+                            <li>
+                                <span
+                                    id="IntelligenceSaveModifier"
+                                    class="SaveModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="IntelligenceSave"
+                                    name="IntelligenceSave"
+                                    class="Proficiency"
+                                />
+                                <label for="IntelligenceSave"
+                                    >Saving Throw</label
+                                >
+                            </li>
+                            <li>
+                                <span
+                                    id="ArcanaModifier"
+                                    class="SkillModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="ArcanaProficiency"
+                                    name="ArcanaProficiency"
+                                    class="Proficiency"
+                                />
+                                <input
+                                    type="checkbox"
+                                    id="ArcanaExpertise"
+                                    name="ArcanaExpertise"
+                                    class="Expertise"
+                                />
+                                <label for="ArcanaProficiency">Arcana</label>
+                            </li>
+                            <li>
+                                <span
+                                    id="HistoryModifier"
+                                    class="SkillModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="HistoryProficiency"
+                                    name="HistoryProficiency"
+                                    class="Proficiency"
+                                />
+                                <input
+                                    type="checkbox"
+                                    id="HistoryExpertise"
+                                    name="HistoryExpertise"
+                                    class="Expertise"
+                                />
+                                <label for="HistoryProficiency">History</label>
+                            </li>
+                            <li>
+                                <span
+                                    id="InvestigationModifier"
+                                    class="SkillModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="InvestigationProficiency"
+                                    name="InvestigationProficiency"
+                                    class="Proficiency"
+                                />
+                                <input
+                                    type="checkbox"
+                                    id="InvestigationExpertise"
+                                    name="InvestigationExpertise"
+                                    class="Expertise"
+                                />
+                                <label for="InvestigationProficiency"
+                                    >History</label
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="Wisdom" class="Ability">
+                    <div class="AbilityScore">
+                        <label for="WisdomScore">WIS</label>
+                        <input id="WisdomScore" type="range" min="1" max="30" />
+                        <span id="WisdomModifier"></span>
+                    </div>
+                    <div class="Proficiencies">
+                        <ul id="WisdomProficiencies">
+                            <li>
+                                <span
+                                    id="WisdomSaveModifier"
+                                    class="SaveModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="WisdomSave"
+                                    name="WisdomSave"
+                                    class="Proficiency"
+                                />
+                                <label for="WisdomSave">Saving Throw</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="Charisma" class="Ability">
+                    <div class="AbilityScore">
+                        <label for="CharismaScore">CHA</label>
+                        <input
+                            id="CharismaScore"
+                            type="number"
+                            min="1"
+                            step="1"
+                            max="30"
+                        />
+                        <span id="CharismaModifier"></span>
+                    </div>
+                    <div class="Proficiencies">
+                        <ul id="CharismaProficiencies">
+                            <li>
+                                <span
+                                    id="CharismaSaveModifier"
+                                    class="SaveModifier"
+                                ></span>
+                                <input
+                                    type="checkbox"
+                                    id="CharismaSave"
+                                    name="CharismaSave"
+                                    class="Proficiency"
+                                />
+                                <label for="CharismaSave">Saving Throw</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </form>
     </body>
+    <script src="js/main.js" type="module" async defer></script>
 </html>
