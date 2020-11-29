@@ -1,81 +1,97 @@
 [
     {
-        "language": "Common",
+        "name": "Common",
+        "type": "Standard",
         "typicalSpeakers": "Humans",
         "script": "Common"
     },
     {
-        "language": "Dwarvish",
+        "name": "Dwarvish",
+        "type": "Standard",
         "typicalSpeakers": "Dwarves",
         "script": "Dwarvish"
     },
     {
-        "language": "Elvish",
+        "name": "Elvish",
+        "type": "Standard",
         "typicalSpeakers": "Elves",
         "script": "Elvish"
     },
     {
-        "language": "Giant",
+        "name": "Giant",
+        "type": "Standard",
         "typicalSpeakers": "Ogres, giants",
         "script": "Dwarvish"
     },
     {
-        "language": "Gnomish",
+        "name": "Gnomish",
+        "type": "Standard",
         "typicalSpeakers": "Gnomes",
         "script": "Dwarvish"
     },
     {
-        "language": "Goblin",
+        "name": "Goblin",
+        "type": "Standard",
         "typicalSpeakers": "Goblinoids",
         "script": "Dwarvish"
     },
     {
-        "language": "Halfling",
+        "name": "Halfling",
+        "type": "Standard",
         "typicalSpeakers": "Halflings",
         "script": "Common"
     },
     {
-        "language": "Orc",
+        "name": "Orc",
+        "type": "Standard",
         "typicalSpeakers": "Orcs",
         "script": "Dwarvish"
     },
     {
-        "language": "Abyssal",
+        "name": "Abyssal",
+        "type": "Exotic",
         "typicalSpeakers": "Demons",
         "script": "Infernal"
     },
     {
-        "language": "Celestial",
+        "name": "Celestial",
+        "type": "Exotic",
         "typicalSpeakers": "Celestials",
         "script": "Celestial"
     },
     {
-        "language": "Draconic",
+        "name": "Draconic",
+        "type": "Exotic",
         "typicalSpeakers": "Dragons, dragonborn",
         "script": "Draconic"
     },
     {
-        "language": "Deep Speech",
-        "typicalSpeakers": "Aboleths, cloakers, beholders",
+        "name": "Deep Speech",
+        "type": "Exotic",
+        "typicalSpeakers": "Aboleths, cloakers",
         "script": "–"
     },
     {
-        "language": "Infernal",
+        "name": "Infernal",
+        "type": "Exotic",
         "typicalSpeakers": "Devils",
         "script": "Infernal"
     },
     {
-        "language": "Primordial",
+        "name": "Primordial",
+        "type": "Exotic",
         "typicalSpeakers": "Elementals",
         "script": "Dwarvish"
     },
     {
-        "language": "Sylvan",
+        "name": "Sylvan",
+        "type": "Exotic",
         "typicalSpeakers": "Fey creatures",
         "script": "Elvish"
     },
     {
-        "language": "Undercommon",
+        "name": "Undercommon",
+        "type": "Exotic",
         "typicalSpeakers": "Underworld traders",
         "script": "Elvish"
     }
