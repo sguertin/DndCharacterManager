@@ -1,0 +1,16 @@
+li {
+    list-style: none;
+}
+
+.addCharacterClass {
+    color: darkgreen;
+}
+
+.ability-scores-panel div.row {
+    height: 4em;
+}
+
+.ability-scores-panel div.row div,
+.ability-scores-panel div.row input {
+    font-size: 100%;
+}
