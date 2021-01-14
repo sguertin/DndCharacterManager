@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "name": "The name of the feat",
+        "description": "The description of the feat",
+        "source": "The source of the feat e.g. Player's Handbook"
+    }
+]
